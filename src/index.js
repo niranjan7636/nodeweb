@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken')
 const cookieParser = require('cookie-parser')
 const { json, urlencoded } = require('express')
 const port = process.env.PORT || 3000
-const { main , User } = require('./src/conection');
+const { main , User } = require('../db/conection');
 const cors = require('cors')
 
 
