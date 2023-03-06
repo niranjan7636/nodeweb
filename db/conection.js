@@ -8,7 +8,7 @@ main().catch((error)=> console.log(error))
 
 async function main(){
 
-await mongoose.connect(process.env.DATA_BASE)
+await mongoose.connect(`mongodb+srv://${process.env.DATA_BASE}`)
 console.log("database connected")
 }
 
