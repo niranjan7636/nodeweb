@@ -27,7 +27,7 @@ const router = express.Router()
 
 server.use(express.json())
 
-
+// server start
 
 server.use(express.static(publicDir))
 
