@@ -13,9 +13,9 @@ const cors = require('cors')
 
 
 
-const viewPath = path.join(__dirname,"templates","views")
-const parialsPath = path.join(__dirname,"templates","partials")
-const publicDir = path.join(__dirname,"public")
+const viewPath = path.join(__dirname,'../templates', 'views')
+const parialsPath = path.join(__dirname,'../templates',"partials")
+const publicDir = path.join(__dirname,"../public")
 
 
 
